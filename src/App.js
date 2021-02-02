@@ -8,6 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import Home from "./home/Home"
+import Search from "./search/Search"
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
             renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/search">
-            <About />
+            <Search />
           </Route>
           <Route path="/">
             <Home />
@@ -34,10 +35,6 @@ function App() {
       </div>
     </Router>
   );
-}
-
-function About() {
-  return <h2>About</h2>;
 }
 
 export default App;

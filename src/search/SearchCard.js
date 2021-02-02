@@ -15,28 +15,28 @@ class SearchCard extends React.Component {
         <Col>
           <Row>
             <h4>
-              {this.props.fullName}
+              {this.props.user.name}
             </h4>
             <p>
-              {this.props.username}
+              {this.props.user.login}
             </p>
           </Row>
           <Row>
             <Col>
               <h4>
-                {this.props.followerCount}
+                {this.props.user.followers}
               </h4>
               <p>Follower</p>
             </Col>
             <Col>
               <h4>
-                {this.props.followingCount}
+                {this.props.user.following}
               </h4>
               <p>Following</p>
             </Col>
             <Col>
               <h4>
-                {this.props.repoCount}
+                {this.props.user.public_repos}
               </h4>
               <p>Repos</p>
             </Col>
@@ -50,12 +50,7 @@ class SearchCard extends React.Component {
 SearchCard.propTypes = {
   isPinned: PropTypes.bool,
   togglePin: PropTypes.func,
-  fullName: PropTypes.string, 
-  username: PropTypes.string, 
-  avatar: PropTypes.string,
-  followerCount: PropTypes.number,
-  followingCount: PropTypes.number,
-  repoCount: PropTypes.number
+  user: PropTypes.object, 
 };
 
 export default SearchCard;
