@@ -2,6 +2,8 @@
 
 I was stuck trying to implement caching.
 
+[Deploying to subdirectory was hard](https://stackoverflow.com/questions/49429906/how-should-i-configure-create-react-app-to-serve-app-from-subdirectory)
+
 
 
 # To implement autodeploy:
