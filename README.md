@@ -13,11 +13,16 @@ Run on cmd:
 Add to `package.json`
 
 ```
+"homepage": "http://xxx.github.io/xxx",
+
+...
+
 "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
 }
 ```
+
 
 # To autodeploy:
 

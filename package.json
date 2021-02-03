@@ -1,5 +1,6 @@
 {
   "name": "diemx-intermediate-challenge",
+  "homepage": "http://gerhean.github.io/diemx-intermediate-challenge",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
