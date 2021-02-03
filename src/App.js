@@ -13,7 +13,7 @@ import Search from "./search/Search"
 function App() {
   return (
     <Router>
-      <div className="bg-light app">
+      <div id="bootstrap-overrides" className="bg-light app">
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand>DIEMx</Navbar.Brand>
           <Nav className="mr-auto">
