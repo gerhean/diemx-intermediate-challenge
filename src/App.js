@@ -12,13 +12,13 @@ import Search from "./search/Search"
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div id="bootstrap-overrides" className="bg-light app">
         <Navbar bg="dark" variant="dark">
           <Navbar.Brand>DIEMx</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/search">Search</Nav.Link>
+            <Nav.Link href="home">Home</Nav.Link>
+            <Nav.Link href="search">Search</Nav.Link>
           </Nav>
         </Navbar>
 

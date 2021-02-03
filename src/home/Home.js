@@ -20,7 +20,7 @@ class Home extends React.Component {
           Want to Try? Click the SEARCH button below.
         </h4>
         <br/>
-        <Button href="/search" variant="dark" size="lg">SEARCH</Button>
+        <Button href="search" variant="dark" size="lg">SEARCH</Button>
       </div>
     );
   }
